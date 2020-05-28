@@ -27,7 +27,6 @@ steps:
     tag: "${{CF_BRANCH_TAG_NORMALIZED}}"
     dockerfile: "Dockerfile"
     stage: "build"
-    disable_push: true
 
   test:
     title: "Running test"
