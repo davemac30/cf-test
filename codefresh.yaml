@@ -27,6 +27,7 @@ steps:
     tag: "${{CF_BRANCH_TAG_NORMALIZED}}"
     dockerfile: "Dockerfile"
     stage: "build"
+    registry: dockerhub
 
   test:
     title: "Running test"
